@@ -12,7 +12,10 @@ export default function index(props: GameItemProps) {
   return (
     <>
       <div className="featured-game-card position-relative">
-        <Link href={`/details/${slugify(title, { lower: true })}`}>
+        <Link
+          href={`/details/${slugify(title, { lower: true })}`}
+          as={`/details/${slugify(title, { lower: true })}`}
+        >
           <div className="blur-sharp">
             <Image
               src={`/img/${thumbnail}.png`}
