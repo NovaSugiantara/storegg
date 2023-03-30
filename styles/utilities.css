@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+.no-x-scrollbar {
+  overflow-x: hidden;
+}
+
 /* Container */
 .container-fluid {
   padding-right: 16px;
