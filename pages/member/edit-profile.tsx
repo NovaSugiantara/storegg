@@ -60,7 +60,7 @@ export default function EditProfie() {
                     </div>
                   </div>
                   <div className="image-upload">
-                    <label for="avatar">
+                    <label htmlFor="avatar">
                       <svg
                         width="90"
                         height="90"
@@ -105,7 +105,7 @@ export default function EditProfie() {
                 </div>
                 <div className="pt-30">
                   <label
-                    for="name"
+                    htmlFor="name"
                     className="form-label text-lg fw-medium color-palette-1 mb-10"
                   >
                     Full Name
@@ -121,7 +121,7 @@ export default function EditProfie() {
                 </div>
                 <div className="pt-30">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="form-label text-lg fw-medium color-palette-1 mb-10"
                   >
                     Email Address
@@ -137,7 +137,7 @@ export default function EditProfie() {
                 </div>
                 <div className="pt-30">
                   <label
-                    for="phone"
+                    htmlFor="phone"
                     className="form-label text-lg fw-medium color-palette-1 mb-10"
                   >
                     Phone

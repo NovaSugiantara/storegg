@@ -53,7 +53,7 @@ export default function Detail() {
                 <div className="pt-md-50 pt-30">
                   <div className="">
                     <label
-                      for="ID"
+                      htmlhtmlFor="ID"
                       className="form-label text-lg fw-medium color-palette-1 mb-10"
                     >
                       Verify ID
@@ -75,7 +75,7 @@ export default function Detail() {
                   <div className="row justify-content-between">
                     <label
                       className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                      for="topup1"
+                      htmlhtmlFor="topup1"
                     >
                       <input
                         className="d-none"
@@ -115,7 +115,7 @@ export default function Detail() {
                     </label>
                     <label
                       className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                      for="topup2"
+                      htmlhtmlFor="topup2"
                     >
                       <input
                         className="d-none"
@@ -155,7 +155,7 @@ export default function Detail() {
                     </label>
                     <label
                       className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                      for="topup3"
+                      htmlhtmlFor="topup3"
                     >
                       <input
                         className="d-none"
@@ -195,7 +195,7 @@ export default function Detail() {
                     </label>
                     <label
                       className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                      for="topup4"
+                      htmlhtmlFor="topup4"
                     >
                       <input
                         className="d-none"
@@ -235,7 +235,7 @@ export default function Detail() {
                     </label>
                     <label
                       className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                      for="topup5"
+                      htmlhtmlFor="topup5"
                     >
                       <input
                         className="d-none"
@@ -287,7 +287,7 @@ export default function Detail() {
                     <div className="row justify-content-between">
                       <label
                         className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                        for="transfer"
+                        htmlhtmlFor="transfer"
                       >
                         <input
                           className="d-none"
@@ -326,7 +326,7 @@ export default function Detail() {
                       </label>
                       <label
                         className="col-lg-4 col-sm-6 ps-md-15 pe-md-15 pt-md-15 pb-md-15 pt-10 pb-10"
-                        for="visa"
+                        htmlhtmlFor="visa"
                       >
                         <input
                           className="d-none"
@@ -372,7 +372,7 @@ export default function Detail() {
                 </div>
                 <div className="pb-50">
                   <label
-                    for="bankAccount"
+                    htmlhtmlFor="bankAccount"
                     className="form-label text-lg fw-medium color-palette-1 mb-10"
                   >
                     Bank Account Name

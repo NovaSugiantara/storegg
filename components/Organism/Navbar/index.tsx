@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Menu from "./menu";
 import Auth from "./auth";
+import ToggleMenu from "./ToggleMenu";
 
 export default function index() {
   return (
@@ -12,26 +13,16 @@ export default function index() {
             <a className="navbar-brand" href="/#">
               <Image alt="logo" src="/icon/logo.svg" width={60} height={60} />
             </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
+            <ToggleMenu />
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
+              <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2 no-underline">
                 <Menu title="Home" active />
                 <Menu title="Games" href="/games" />
                 <Menu title="Rewards" href="/rewards" />
                 <Menu title="Discover" href="/discovers" />
                 <Menu title="Global Ranks" href="/global-ranks" />
 
-                <Auth />
+                <Auth is_login />
               </ul>
             </div>
           </div>

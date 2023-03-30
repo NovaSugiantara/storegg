@@ -33,36 +33,32 @@ export default function Auth(props: Partial<AuthProps>) {
             aria-labelledby="dropdownMenuLink"
           >
             <li>
-              <a
-                className="dropdown-item text-lg color-palette-2"
-                href="/profile"
-              >
-                My Profile
-              </a>
+              <Link href="/member" className="no-underline">
+                <span className="dropdown-item text-lg color-palette-2">
+                  Profile
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                className="dropdown-item text-lg color-palette-2"
-                href="/wallet"
-              >
-                Wallet
-              </a>
+              <Link href="/wallet" className="no-underline">
+                <span className="dropdown-item text-lg color-palette-2">
+                  Wallet
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                className="dropdown-item text-lg color-palette-2"
-                href="/settings"
-              >
-                Account Settings
-              </a>
+              <Link href="/member/edit-profile" className="no-underline">
+                <span className="dropdown-item text-lg color-palette-2">
+                  Account Settings
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                className="dropdown-item text-lg color-palette-2"
-                href="/sign_out"
-              >
-                Log Out
-              </a>
+              <Link href="/login" className="no-underline">
+                <span className="dropdown-item text-lg color-palette-2">
+                  Logout
+                </span>
+              </Link>
             </li>
           </ul>
         </div>
@@ -71,13 +67,13 @@ export default function Auth(props: Partial<AuthProps>) {
   }
   return (
     <li className="nav-item my-auto">
-      <Link href="/sign_ins">
-        <button
+      <Link href="/login" className="no-underline">
+        <span
           className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
           role="button"
         >
           Sign In
-        </button>
+        </span>
       </Link>
     </li>
   );

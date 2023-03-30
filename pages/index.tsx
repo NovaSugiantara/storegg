@@ -424,7 +424,7 @@ const Home: NextPage = () => {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="/img/Thumbnail-1.png"
+                    src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1njn.png"
                     width="205"
                     height="270"
                     alt=""
@@ -448,7 +448,7 @@ const Home: NextPage = () => {
                     </div>
                     <div>
                       <p className="fw-semibold text-white text-xl m-0">
-                        Super Mechs
+                        PUBG Mobile
                       </p>
                       <p className="fw-light text-white m-0">Mobile</p>
                     </div>
@@ -460,7 +460,7 @@ const Home: NextPage = () => {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="/img/Thumbnail-2.png"
+                    src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqe.png"
                     width="205"
                     height="270"
                     alt=""
@@ -484,7 +484,7 @@ const Home: NextPage = () => {
                     </div>
                     <div>
                       <p className="fw-semibold text-white text-xl m-0">
-                        Call of Duty: Modern
+                        Call of Duty Mobile
                       </p>
                       <p className="fw-light text-white m-0">Mobile</p>
                     </div>
@@ -496,7 +496,7 @@ const Home: NextPage = () => {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="/img/Thumbnail-3.png"
+                    src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1n6c.png"
                     width="205"
                     height="270"
                     alt=""
@@ -520,7 +520,7 @@ const Home: NextPage = () => {
                     </div>
                     <div>
                       <p className="fw-semibold text-white text-xl m-0">
-                        Mobile Legends
+                        Mobile Legends Bang Bang
                       </p>
                       <p className="fw-light text-white m-0">Mobile</p>
                     </div>
@@ -532,7 +532,7 @@ const Home: NextPage = () => {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="/img/Thumbnail-4.png"
+                    src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1mb8.png"
                     width="205"
                     height="270"
                     alt=""
@@ -568,7 +568,7 @@ const Home: NextPage = () => {
               <a href="./src/detail.html">
                 <div className="blur-sharp">
                   <img
-                    src="/img/Thumbnail-5.png"
+                    src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvt.png"
                     width="205"
                     height="270"
                     alt=""
