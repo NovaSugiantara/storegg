@@ -29,7 +29,7 @@ export default function Detail() {
                   <h2 className="text-xl fw-bold color-palette-1 text-start mb-10">
                     Mobile Legends:
                     <br />
-                    The New Battle 2021
+                    Bang Bang
                   </h2>
                   <p className="text-sm color-palette-2 text-start mb-0">
                     Category: Mobile
@@ -44,7 +44,7 @@ export default function Detail() {
                 <h2 className="text-4xl fw-bold color-palette-1 text-start mb-10 mt-10">
                   Mobile Legends:
                   <br />
-                  The New Battle 2021
+                  Bang Bang
                 </h2>
                 <p className="text-lg color-palette-2 mb-0">Category: Mobile</p>
               </div>
