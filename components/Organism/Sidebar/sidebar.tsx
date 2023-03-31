@@ -11,7 +11,7 @@ export default function sidebar() {
         <div className="content pt-50 pb-30 ps-30">
           <Profile />
           <div className="menus">
-            <MenuItem title="Overview" icon="ic-overview-menu" active />
+            <MenuItem title="Overview" icon="ic-overview-menu" />
             <MenuItem title="Transaction" icon="ic-transaction-menu" />
             <MenuItem title="Messages" icon="ic-messages-menu" />
             <MenuItem title="Card" icon="ic-card-menu" />

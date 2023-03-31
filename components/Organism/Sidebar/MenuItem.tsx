@@ -1,6 +1,7 @@
 import cx from "classnames";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 interface OverviewMenuItem {
   title: string;
@@ -12,15 +13,29 @@ interface OverviewMenuItem {
     | "ic-reward-menu"
     | "ic-setting-menu"
     | "ic-logout-menu";
-  active?: boolean;
 }
+
 export default function MenuItem(props: Partial<OverviewMenuItem>) {
-  const { title, icon, active } = props;
+  const { title, icon } = props;
+  let linkTitle = title?.toLowerCase();
+  if (title === "Setting") {
+    linkTitle = "edit-profile";
+  } else if (title === "Overview") {
+    linkTitle = "";
+  } else if (title === "Logout") {
+    linkTitle = "logout";
+  }
+
+  const router = useRouter();
+
   const classItem = cx({
     item: true,
     "mb-30": true,
-    active: active,
+    active:
+      (linkTitle === "" && router.asPath === "/member") ||
+      (linkTitle !== "" && router.asPath === `/member/${linkTitle}`),
   });
+
   return (
     <div className={classItem}>
       <Image
@@ -31,7 +46,10 @@ export default function MenuItem(props: Partial<OverviewMenuItem>) {
         className="me-3"
       />
       <p className="item-title m-0">
-        <Link href="" className="text-lg text-decoration-none">
+        <Link
+          href={title === "Logout" ? `/${linkTitle}` : `/member/${linkTitle}`}
+          className="text-lg text-decoration-none"
+        >
           {title}
         </Link>
       </p>
