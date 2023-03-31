@@ -1,4 +1,5 @@
 // import styles from './Sidebar.module.css';
+import Link from "next/link";
 
 export default function sidebar() {
   return (
@@ -55,9 +56,9 @@ export default function sidebar() {
                 />
               </svg>
               <p className="item-title m-0">
-                <a href="" className="text-lg text-decoration-none">
+                <Link href="" className="text-lg text-decoration-none">
                   Overview
-                </a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -92,12 +93,12 @@ export default function sidebar() {
                 />
               </svg>
               <p className="item-title m-0">
-                <a
-                  href="../member/transactions.html"
+                <Link
+                  href="/member/transactions"
                   className="text-lg text-decoration-none"
                 >
                   Transactions
-                </a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -118,9 +119,9 @@ export default function sidebar() {
                 />
               </svg>
               <p className="item-title m-0">
-                <a href="" className="text-lg text-decoration-none">
+                <Link href="" className="text-lg text-decoration-none">
                   Messages
-                </a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -160,9 +161,9 @@ export default function sidebar() {
                 </defs>
               </svg>
               <p className="item-title m-0">
-                <a href="" className="text-lg text-decoration-none">
+                <Link href="" className="text-lg text-decoration-none">
                   Card
-                </a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -202,9 +203,9 @@ export default function sidebar() {
                 </defs>
               </svg>
               <p className="item-title m-0">
-                <a href="" className="text-lg text-decoration-none">
+                <Link href="" className="text-lg text-decoration-none">
                   Rewards
-                </a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -244,12 +245,12 @@ export default function sidebar() {
                 </defs>
               </svg>
               <p className="item-title m-0">
-                <a
+                <Link
                   href="../member/edit-profile.html"
                   className="text-lg text-decoration-none"
                 >
                   Settings
-                </a>
+                </Link>
               </p>
             </div>
             <div className="item mb-30">
@@ -277,9 +278,9 @@ export default function sidebar() {
                 />
               </svg>
               <p className="item-title m-0">
-                <a href="" className="text-lg text-decoration-none">
+                <Link href="" className="text-lg text-decoration-none">
                   Log Out
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -347,13 +348,13 @@ export default function sidebar() {
                   Be The Winner
                 </p>
               </div>
-              <a
+              <Link
                 className="btn btn-get-started w-100 fw-medium text-xs text-center text-white rounded-pill"
                 href="#"
                 role="button"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
         </div>

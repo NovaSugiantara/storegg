@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function notfound() {
   return (
     <>
@@ -360,13 +362,13 @@ export default function notfound() {
             </p>
           </div>
           <div className="button-group d-flex flex-column mx-auto">
-            <a
+            <Link
               className="btn btn-homepage fw-medium text-lg text-white rounded-pill"
-              href="#"
+              href="/"
               role="button"
             >
               Homepage
-            </a>
+            </Link>
           </div>
         </div>
       </section>

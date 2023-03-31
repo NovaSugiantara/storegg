@@ -1,8 +1,9 @@
-import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function FormCheckout() {
   return (
-    <form action="./checkout.html" method="POST">
+    <form action="/checkout" method="POST">
       <div className="pt-md-50 pt-30">
         <div className="">
           <label
@@ -43,23 +44,12 @@ export default function FormCheckout() {
                   <span className="fw-medium">125</span>
                   Gold
                 </p>
-                <svg
-                  id="icon-check"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                  <path
-                    d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                    stroke="#00BAFF"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+                <Image
+                  src="icon/icons-check.svg"
+                  alt="icon-check"
+                  width={20}
+                  height={20}
+                />
               </div>
               <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
@@ -81,23 +71,12 @@ export default function FormCheckout() {
                   <span className="fw-medium">225</span>
                   Gold
                 </p>
-                <svg
-                  id="icon-check"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                  <path
-                    d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                    stroke="#00BAFF"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+                <Image
+                  src="icon/icons-check.svg"
+                  alt="icon-check"
+                  width={20}
+                  height={20}
+                />
               </div>
               <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
@@ -119,23 +98,12 @@ export default function FormCheckout() {
                   <span className="fw-medium">350</span>
                   Gold
                 </p>
-                <svg
-                  id="icon-check"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                  <path
-                    d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                    stroke="#00BAFF"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+                <Image
+                  src="icon/icons-check.svg"
+                  alt="icon-check"
+                  width={20}
+                  height={20}
+                />
               </div>
               <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
@@ -157,23 +125,12 @@ export default function FormCheckout() {
                   <span className="fw-medium">550</span>
                   Gold
                 </p>
-                <svg
-                  id="icon-check"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                  <path
-                    d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                    stroke="#00BAFF"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+                <Image
+                  src="icon/icons-check.svg"
+                  alt="icon-check"
+                  width={20}
+                  height={20}
+                />
               </div>
               <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
@@ -195,23 +152,12 @@ export default function FormCheckout() {
                   <span className="fw-medium">750</span>
                   Gold
                 </p>
-                <svg
-                  id="icon-check"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                  <path
-                    d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                    stroke="#00BAFF"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+                <Image
+                  src="icon/icons-check.svg"
+                  alt="icon-check"
+                  width={20}
+                  height={20}
+                />
               </div>
               <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
             </div>
@@ -244,23 +190,12 @@ export default function FormCheckout() {
                   <p className="text-3xl color-palette-1 fw-medium m-0">
                     Transfer
                   </p>
-                  <svg
-                    id="icon-check"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                    <path
-                      d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                      stroke="#00BAFF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <Image
+                    src="icon/icons-check.svg"
+                    alt="icon-check"
+                    width={20}
+                    height={20}
+                  />
                 </div>
                 <p className="text-lg color-palette-1 m-0">
                   Worldwide Available
@@ -281,23 +216,12 @@ export default function FormCheckout() {
               <div className="detail-card">
                 <div className="d-flex justify-content-between">
                   <p className="text-3xl color-palette-1 fw-medium m-0">VISA</p>
-                  <svg
-                    id="icon-check"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                    <path
-                      d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                      stroke="#00BAFF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                  <Image
+                    src="icon/icons-check.svg"
+                    alt="icon-check"
+                    width={20}
+                    height={20}
+                  />
                 </div>
                 <p className="text-lg color-palette-1 m-0">Credit Card</p>
               </div>
@@ -326,13 +250,13 @@ export default function FormCheckout() {
         />
       </div>
       <div className="d-sm-block d-flex flex-column w-100">
-        <a
-          href="./checkout.html"
+        <Link
+          href="/checkout"
           type="submit"
           className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg"
         >
           Continue
-        </a>
+        </Link>
       </div>
     </form>
   );

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Sidebar from "../../../components/Sidebar/sidebar";
 
 export default function TransactionsDetails() {
@@ -106,13 +107,13 @@ export default function TransactionsDetails() {
                     </p>
                   </div>
                   <div className="d-md-block d-flex flex-column w-100">
-                    <a
+                    <Link
                       className="btn btn-whatsapp rounded-pill fw-medium text-white border-0 text-lg"
                       href="#"
                       role="button"
                     >
                       WhatsApp ke Admin
-                    </a>
+                    </Link>
                   </div>
                 </section>
               </div>

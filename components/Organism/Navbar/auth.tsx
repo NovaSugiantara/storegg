@@ -11,7 +11,7 @@ export default function Auth(props: Partial<AuthProps>) {
       <li className="nav-item my-auto dropdown d-flex">
         <div className="vertical-line d-lg-block d-none"></div>
         <div>
-          <a
+          <Link
             className="dropdown-toggle ms-lg-40"
             href="#"
             role="button"
@@ -26,7 +26,7 @@ export default function Auth(props: Partial<AuthProps>) {
               height="40"
               alt=""
             />
-          </a>
+          </Link>
 
           <ul
             className="dropdown-menu border-0"

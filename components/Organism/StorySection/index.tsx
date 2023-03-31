@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function index() {
   return (
     <section className="story pt-50 pb-50">
@@ -29,13 +31,13 @@ export default function index() {
                 <br className="d-sm-block d-none" /> pemenang sejati
               </p>
               <div className="d-md-block d-flex flex-column w-100">
-                <a
+                <Link
                   className="btn btn-read text-lg rounded-pill"
                   href="/#"
                   role="button"
                 >
                   Read Story
-                </a>
+                </Link>
               </div>
             </div>
           </div>

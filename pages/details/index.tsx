@@ -1,12 +1,15 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 import FormCheckout from "../../components/Organism/DetailsGame/FormCheckout";
 import TopUpItem from "../../components/Organism/DetailsGame/TopUpItem";
+import Navbar from "../../components/Organism/Navbar";
+import Footer from "../../components/Organism/Footer";
 
 export default function Detail() {
   //  const router = useRouter();
   //  const { slug } = router.query;
   return (
     <>
+      <Navbar />
       {/* Detail Content */}
       <section className="detail pt-lg-60 pb-50">
         <div className="container-xxl container-fluid">
@@ -30,6 +33,7 @@ export default function Detail() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

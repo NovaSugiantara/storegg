@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function register_success() {
   return (
     <>
@@ -192,13 +194,13 @@ export default function register_success() {
             </p>
           </div>
           <div className="button-group d-flex flex-column mx-auto">
-            <a
+            <Link
               className="btn btn-top-up fw-medium text-lg text-white rounded-pill"
               href="../index.html"
               role="button"
             >
               Top Up
-            </a>
+            </Link>
           </div>
         </div>
       </section>

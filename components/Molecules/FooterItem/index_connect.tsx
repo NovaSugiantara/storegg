@@ -1,4 +1,5 @@
 import slugify from "slugify";
+import Link from "next/link";
 
 interface FooterItemProps {
   title: string;
@@ -16,7 +17,7 @@ export default function FooterItem(props: FooterItemProps) {
           if (link.label === "Maps") {
             return (
               <li className="mb-6 my-6" key={link.label}>
-                <a
+                <Link
                   href={`https://www.google.com/maps?q=${slugify(link.value, {
                     lower: true,
                   })}`}
@@ -25,29 +26,29 @@ export default function FooterItem(props: FooterItemProps) {
                   rel="noopener noreferrer"
                 >
                   {link.value} <br />
-                </a>
+                </Link>
               </li>
             );
           } else if (link.label === "Phone") {
             return (
               <li className="mb-6 my-6" key={link.label}>
-                <a
+                <Link
                   href={`tel:${link.value}`}
                   className="text-lg color-palette-1 text-decoration-none"
                 >
                   {link.value} <br />
-                </a>
+                </Link>
               </li>
             );
           } else {
             return (
               <li className="mb-6 my-6" key={link.label}>
-                <a
+                <Link
                   href={`mailto:${link.value}`}
                   className="text-lg color-palette-1 text-decoration-none"
                 >
                   {link.value} <br />
-                </a>
+                </Link>
               </li>
             );
           }

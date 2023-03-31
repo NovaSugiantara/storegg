@@ -1,4 +1,5 @@
 import Illustration from "./Illustration";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -20,20 +21,20 @@ export default function index() {
               sejati
             </p>
             <div className="d-flex flex-lg-row flex-column gap-4">
-              <a
+              <Link
                 className="btn btn-get text-lg text-white rounded-pill"
                 href="#feature"
                 role="button"
               >
                 Get Started
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn-learn text-lg color-palette-1 my-auto text-center"
                 href="/#"
                 role="button"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
           <Illustration />
