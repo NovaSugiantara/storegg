@@ -1,5 +1,3 @@
-import React from "react";
-
 interface StatItemProps {
   number: string;
   description: string;

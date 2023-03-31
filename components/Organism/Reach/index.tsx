@@ -1,4 +1,3 @@
-import React from "react";
 import StatItem from "../../Molecules/ReachItem/StatItem";
 import VerticalLine from "../../Molecules/ReachItem/VerticalLine";
 import HorizontalLine from "../../Molecules/ReachItem/HorizontalLine";

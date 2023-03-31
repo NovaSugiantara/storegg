@@ -60,7 +60,7 @@ export default function register_avatar() {
               <div className="button-group d-flex flex-column mx-auto">
                 <Link
                   className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
-                  href="/register-photo-success"
+                  href="/register-avatar-success"
                   role="button"
                 >
                   Create My Account

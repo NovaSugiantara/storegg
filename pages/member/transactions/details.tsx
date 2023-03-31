@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Sidebar from "../../../components/Sidebar/sidebar";
+import Sidebar from "../../../components/Organism/Sidebar/sidebar";
 
 export default function TransactionsDetails() {
   return (

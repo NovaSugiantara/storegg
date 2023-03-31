@@ -1,4 +1,4 @@
-import Sidebar from "../../components/Sidebar/sidebar";
+import Sidebar from "../../components/Organism/Sidebar/sidebar";
 
 export default function EditProfie() {
   return (
