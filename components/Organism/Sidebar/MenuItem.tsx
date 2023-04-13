@@ -33,7 +33,8 @@ export default function MenuItem(props: Partial<OverviewMenuItem>) {
     "mb-30": true,
     active:
       (linkTitle === "" && router.asPath === "/member") ||
-      (linkTitle !== "" && router.asPath === `/member/${linkTitle}`),
+      (linkTitle !== "" && router.asPath === `/member/${linkTitle}`) ||
+      (linkTitle !== "" && router.asPath === `/member/${linkTitle}/detail`),
   });
 
   return (

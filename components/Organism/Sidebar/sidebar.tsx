@@ -12,7 +12,7 @@ export default function sidebar() {
           <Profile />
           <div className="menus">
             <MenuItem title="Overview" icon="ic-overview-menu" />
-            <MenuItem title="Transaction" icon="ic-transaction-menu" />
+            <MenuItem title="Transactions" icon="ic-transaction-menu" />
             <MenuItem title="Messages" icon="ic-messages-menu" />
             <MenuItem title="Card" icon="ic-card-menu" />
             <MenuItem title="Rewards" icon="ic-reward-menu" />
