@@ -16,24 +16,28 @@ export default function index() {
             <GameCover
               title="PUBG Mobile"
               platform="Mobile"
-              thumbnail="Thumbnail-1"
+              thumbnail="/img/Thumbnail-1.png"
             />
             <GameCover
               title="Call Of Duty Mobile"
               platform="Mobile"
-              thumbnail="Thumbnail-2"
+              thumbnail="/img/Thumbnail-2.png"
             />
             <GameCover
               title="Mobile Legend Bang Bang"
               platform="Mobile"
-              thumbnail="Thumbnail-3"
+              thumbnail="/img/Thumbnail-3.png"
             />
             <GameCover
               title="Clash Of Clans"
               platform="Mobile"
-              thumbnail="Thumbnail-4"
+              thumbnail="/img/Thumbnail-4.png"
             />
-            <GameCover title="Valorant" platform="PC" thumbnail="Thumbnail-5" />
+            <GameCover
+              title="Valorant"
+              platform="PC"
+              thumbnail="/img/Thumbnail-5.png"
+            />
           </div>
         </div>
       </section>

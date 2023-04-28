@@ -1,5 +1,5 @@
 import React from "react";
-import PaymentsInfo from "../Molecules/TransactionDetails/PaymentsInfo";
+import PaymentsInfo from "../../Molecules/TransactionDetails/PaymentsInfo";
 
 export default function Payments() {
   return (

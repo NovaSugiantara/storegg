@@ -2,23 +2,30 @@ import Image from "next/image";
 import Link from "next/link";
 import slugify from "slugify";
 
-interface GameItemProps {
+function getSlug(title: string): string {
+  if (!title || typeof title !== "string") {
+    console.error("Invalid argument: title should be a string.");
+    return "";
+  }
+  return slugify(title, { lower: true });
+}
+
+export interface GameItemProps {
   title: string;
   platform: string;
   thumbnail: string;
 }
-export default function index(props: GameItemProps) {
+export default function FeaturedGame(props: GameItemProps) {
   const { title, platform, thumbnail } = props;
+  const slug = getSlug(title);
+  const thumbnails = `/img/${thumbnail}.png`;
   return (
     <>
       <div className="featured-game-card position-relative">
-        <Link
-          href={`/details/${slugify(title, { lower: true })}`}
-          as={`/details/${slugify(title, { lower: true })}`}
-        >
+        <Link href={`/details/${slug}`} as={`/details/${slug}`}>
           <div className="blur-sharp">
             <Image
-              src={`/img/${thumbnail}.png`}
+              src={thumbnail}
               width={205}
               height={270}
               alt="ThumbnailGame"

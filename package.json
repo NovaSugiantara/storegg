@@ -7,6 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
+    "test-storybook": "test-storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@storybook/addon-essentials": "^7.0.4",
     "@storybook/addon-interactions": "^7.0.4",
     "@storybook/addon-links": "^7.0.4",
+    "@storybook/addon-mdx-gfm": "^7.0.7",
     "@storybook/blocks": "^7.0.4",
     "@storybook/nextjs": "^7.0.4",
     "@storybook/react": "^7.0.4",

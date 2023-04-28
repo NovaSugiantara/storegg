@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "files": "*.stories.tsx",
+      "options": {
+        "singleQuote": true,
+        "semi": true,
+        "parser": "typescript",
+        "trailingComma": "es5"
+      }
+    }
+  ]
+}
