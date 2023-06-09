@@ -2,8 +2,10 @@ version: "3.9"
 
 services:
   frontend:
+    container_name: client
     build:
       context: ./frontend
+      # target: development
       dockerfile: Dockerfile
     ports:
       - 5000:5000
@@ -14,12 +16,16 @@ services:
     restart: always
     depends_on:
       - backend
+    networks:
+      - next-express
 
   backend:
+    container_name: server
     restart: always
     build:
-      context: backend
-      target: development
+      context: ./backend
+      # target: development
+      dockerfile: Dockerfile
     expose: 
       - 3000
     ports:
@@ -27,15 +33,25 @@ services:
     volumes:
       - ./backend:/usr/src/app
       - /usr/src/app/node_modules
-    # depends_on:
-    #   - mongo
+    depends_on:
+      - mongodb
+    networks:
+      - express-mongo
+      - next-express
 
-#   mongodb:
-#     restart: always
-#     image: mongo:4.2.0
-#     volumes:
-#       - ./data:/data/db
-#     networks:
-#       - express-mongo
-#     expose:
-#       - 27017
+  mongodb:
+    container_name: mongodb
+    restart: always
+    image: mongo:4.2.0
+    volumes:
+      - ./data:/data/db
+    expose:
+      - 27017
+    ports:
+      - 27017:27017
+    networks:
+      - express-mongo
+
+networks:
+  next-express:
+  express-mongo:
