@@ -1,5 +1,3 @@
-Tentu saja, berikut adalah contoh README untuk aplikasi Storegg menggunakan MERN stack dengan Next.js:
-
 Storegg - Aplikasi Top Up Voucher Game
 Storegg adalah sebuah aplikasi web untuk melakukan top up voucher game. Aplikasi ini menggunakan MERN stack dan Next.js sebagai framework frontend-nya.
 
