@@ -2,19 +2,20 @@
 
 # dependencies
 /assets_bwa
-/node_modules
+/frontend/node_modules
+/backend/node_modules
 /.pnp
 .pnp.js
 
 # testing
-/coverage
+/frontend/coverage
 
 # next.js
-/.next/
-/out/
+/frontend/.next/
+/frontend/out/
 
 # production
-/build
+/frontend/build
 
 # misc
 .DS_Store
@@ -26,13 +27,17 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
 
 # vercel
-.vercel
+/frontend/.vercel
 
 # typescript
 *.tsbuildinfo
