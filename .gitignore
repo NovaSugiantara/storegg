@@ -45,3 +45,6 @@ yarn-error.log*
 # mongodbdata
 /data
 /data/*
+
+/backend/.env
+/backend/.env.production

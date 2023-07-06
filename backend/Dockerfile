@@ -6,6 +6,7 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/package.json
 COPY package-lock.json /usr/src/app/package-lock.json
 RUN npm ci
+RUN npm -g install nodemon
 
 COPY . /usr/src/app
 
@@ -24,6 +25,5 @@ useradd -s /bin/bash -m vscode
 groupadd docker
 usermod -aG docker vscode
 EOF
-# install Docker tools (cli, buildx, compose)
-COPY --from=gloursdocker/docker / /
-CMD [ "npm", "run", "start" ]
+
+CMD [ "npm", "run", "dev" ]
